@@ -1,0 +1,6 @@
+[submodule "utilfort"]
+	path = utilfort
+	url = git://github.com/iijimakazuyuki/utilfort.git
+[submodule "spmat"]
+	path = spmat
+	url = git://github.com/iijimakazuyuki/spmat.git

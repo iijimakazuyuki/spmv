@@ -4,3 +4,9 @@
 [submodule "spmat"]
 	path = spmat
 	url = git://github.com/iijimakazuyuki/spmat.git
+[submodule "matmpi"]
+	path = matmpi
+	url = git://github.com/iijimakazuyuki/matmpi.git
+[submodule "matpart"]
+	path = matpart
+	url = git://github.com/iijimakazuyuki/matpart.git

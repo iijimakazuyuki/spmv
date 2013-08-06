@@ -13,7 +13,6 @@ program mpi_spmv_test
 	integer, parameter :: TRIAL = 10
 	integer :: i, j, k, s, rank, np, err
 	character(len=16) :: fname, prefix
-	integer, parameter :: FILE = 101
 	
 	call MPI_INIT(err)
 	call MPI_COMM_RANK(MPI_COMM_WORLD, rank, err)
@@ -40,6 +39,8 @@ program mpi_spmv_test
 	do k=1, TRIAL
 	
 	x = 1
+	
+	call MPI_BARRIER(MPI_COMM_WORLD, err)
 	
 	st = OMP_GET_WTIME()
 	
